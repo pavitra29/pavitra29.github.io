@@ -3,7 +3,7 @@ body {
     font-family:'Open Sans', helvetica, sanserif;
     background-color:#efefef;
     font-weight:300;
-    background: url("http://pavitra29.github.io/background.jpg") no-repeat center center fixed; 
+    background: url("background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,10 +34,9 @@ p, p:link {
     right: 0;
     padding: 3%;
     opacity:.9;
-    color:white;  /*text color */
-    text-align:center; /*text centering */
+    color:white;  
+    text-align:center; 
     margin: 0;
-    /* background panel color */
     background-color: #183170 ;
 }
 
