@@ -20,11 +20,6 @@ app.config(['$routeProvider',function($routeProvider){
            controller: 'conCtrl'
        })
 
-       .when('/facebook-page', {
-           templateUrl: 'https://www.facebook.com/pavitra.srinivasan.29',
-           controller: 'fbCtrl'
-       })
-
 }]);
 
 app.controller('nameCtrl',function($scope) {
