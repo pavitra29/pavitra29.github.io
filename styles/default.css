@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    height: auto;
+    width: auto;
+}
+
+body {
+    font-family:'Open Sans', helvetica, sanserif;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    background: url("home.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+
+.contenthome {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3%;
+    opacity:.9;
+    color:white;
+    text-align:center;
+    margin: 3px;
+    background-color: black ;
+}
+
+.contentabout {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 5%;
+    padding: 3%;
+    opacity:.9;
+    color:white;
+    text-align: justify;
+    margin: 0;
+    background-color: black ;
+}
+
+.contentcontact {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 5%;
+    padding: 3%;
+    opacity:.9;
+    color:white;
+    text-align:left;
+    margin: 0;
+    background-color: black ;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 25px;
+}
+.navbar {min-height:30px !important;}
+
+.dropdown {
+    cursor:pointer;
+}
