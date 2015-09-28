@@ -7,8 +7,6 @@ html {
 
 body {
     font-family:'Open Sans', helvetica, sanserif;
-    padding-top: 1px;
-    padding-bottom: 20px;
     background: url("home.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
