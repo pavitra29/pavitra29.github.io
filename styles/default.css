@@ -7,11 +7,14 @@ html {
 
 body {
     font-family:'Open Sans', helvetica, sanserif;
-    background: url("home.jpg") no-repeat center center fixed;
+    background-image: url("home.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     overflow: hidden;
 }
 
@@ -68,7 +71,7 @@ body {
 
 @media screen and (min-width:600px) {
 
-    .contenthome, .contentabout, .contentcontact, body {
+    .contenthome, .contentabout, .contentcontact {
         top: 30%;
         right: 5%;
         left: 60%;
