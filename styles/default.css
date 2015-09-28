@@ -13,6 +13,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -31,7 +32,8 @@ body {
 
 .contentabout {
     position: absolute;
-    bottom: 10px;
+    top: 10%;
+    bottom: 5%;
     left: 50%;
     right: 5%;
     padding: 3%;
@@ -44,7 +46,8 @@ body {
 
 .contentcontact {
     position: absolute;
-    bottom: 10px;
+    top: 10%;
+    bottom: 5%;
     left: 50%;
     right: 5%;
     padding: 3%;
@@ -59,7 +62,9 @@ body {
     padding-top:5px !important; padding-bottom:0 !important;
     height: 25px;
 }
-.navbar {min-height:30px !important;}
+.navbar {
+    min-height:30px !important;
+}
 
 .dropdown {
     cursor:pointer;
